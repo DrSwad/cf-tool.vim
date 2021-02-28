@@ -1,7 +1,6 @@
-" Vim global plugin for complementing cf-tool
-" Last Change:	2021 Feb 27
+" Vim plugin to complement the cf-tool command line tool
 " Maintainer:	Nayeemul Islam Swad <drswad2013@gmail.com>
-" License:	This file is placed in the public domain.
+" License: MIT
 
 if exists("g:loaded_cfTool")
   finish
