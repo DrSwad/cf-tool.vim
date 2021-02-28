@@ -7,8 +7,7 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 if !hasmapto('<Plug>CfToolOpen;')
-  " Default map to the open command
-  nmap <unique> ø <Plug>CfToolOpen; 
+  " TODO: Add default map to the open command
 endif
 noremap <unique> <script> <Plug>CfToolOpen; :CfTool Open
 
